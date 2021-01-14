@@ -1,0 +1,85 @@
+.topo{
+        background-image: url('../../../assets/images/topo.svg');
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 768px;
+        margin-top: -15px;
+}
+
+.topo-centro{
+        background: none;
+        height: 768px;
+       
+}
+
+.our-best-recipes{
+        background:#FAFAFC;
+       
+}
+
+.titulo-1{
+        margin-top: 15px;
+        color:#1D164D;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 32px;
+        margin-top: 30px;
+
+}
+.our-best-recipes p{
+        color: #9E9BAF;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+
+
+}
+.card{
+        margin-top: 15px;
+        background: none;
+        border-radius: 5px;
+        height: 225px;
+        width: 528px;
+        border: none;
+        box-shadow: 10px 10px 37px -9px rgba(0,0,0,0.5);
+        -webkit-box-shadow: 10px 10px 37px -9px rgba(0,0,0,0.5);
+        -moz-box-shadow: 10px 10px 37px -9px rgba(0,0,0,0.5);
+}
+
+.card img{ 
+        width: 253px;
+        height: 225px;
+        float: left;
+}
+.card p{
+        color:#1D164D;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: right;
+        float: right;
+        text-align: left;
+        margin-top:-180px;
+        margin-left: 280px;
+        
+
+}
+.card a{
+        height: 48px;
+        width: 134px;
+        background: #BADC58;
+        border-radius: 5px;
+        display: block;
+        margin-left: 280px;
+        background-repeat: no-repeat;
+        background-attachment: right;
+        background-position: right;
+        float:right;
+        font-size: 16px;
+        text-align: center;
+        color: #ffff;
+        padding-top: 10px;
+        text-decoration: none;
+        font-weight: bold;
+}

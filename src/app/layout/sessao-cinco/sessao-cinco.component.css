@@ -1,0 +1,51 @@
+.join{
+        background-image: url('../../../assets/images/icon2.png');
+        background-repeat: no-repeat;
+        background-position: right; 
+        background-size: 718px;
+        display: block;
+        height:672px;
+        
+}
+
+
+
+.texto h2{
+        color: #2D3561;
+        font-size: 32px !important;       
+        font-family: 'Montserrat', sans-serif;
+         font-weight: bold;
+        text-align: left;
+        margin-top: 280px;
+}
+.input-busca{
+        border: 1px solid #2D3561;
+        height: 52px;
+        width: 343px;
+        background: #ffff;
+        border-radius: 8px;;
+}
+.input-busca::placeholder{
+        font-size: 16px;
+        color: #9E9BAF;
+        padding-left: 15px;;
+}
+.join a{
+        height: 52px;
+        width: 93px;
+        background: #BADC58;
+        display: block;
+        background-repeat: no-repeat;
+        background-attachment: center;
+        background-position: center;
+        float:right;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        text-align: center;
+        color: #ffff;
+        padding-top: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 90px;
+        border-radius: 8px;
+}

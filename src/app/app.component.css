@@ -1,0 +1,99 @@
+
+
+.topo{
+        background-image: url('../assets/images/topo.svg');
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 768px;
+        margin-top: -15px;
+}
+
+.topo-centro{
+        background: none;
+        height: 768px;
+       
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.menu{
+        height: 68px;
+       
+}
+.logo{
+        color: #BADC58;
+    font-size: 32pt;
+    text-decoration: none;
+    margin-top: 15px;
+    display: block;
+    margin-left: -15px;
+   font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.logo:hover{
+        text-decoration: none;
+        color: #BADC58;
+}
+
+
+.botao-cadastrar{
+        background: #ffffff;
+        padding: 15px;
+        color: #BADC58 !important;
+        border-radius: 5px;
+        margin-left: 15px;
+        text-decoration: none;
+}
+.cx-busca{
+        height: 50px;
+        width: 50px;
+        background: #ff0000;
+}
+
+.menu ul, #menu-no-index ul{
+        list-style: none;
+        float: right;
+        margin-top: 30px;
+        margin-right: 85px;
+}
+
+.menu ul li, #menu-no-index ul li{
+        display: inline;
+        
+}
+
+.menu ul li a{
+        display: block;
+        color: #ffffff;
+        padding: 10px;
+        display: inline;
+        text-transform:  uppercase;
+        font-size: 16px;
+        text-decoration: none;
+        font-weight: bold;
+        
+}
+
+.menu ul li a:hover{
+ background: #ffffff;
+        padding: 15px;
+        color: #BADC58 !important;
+        border-radius: 5px;
+        text-decoration: none;
+}
+
+
+#menu-no-index ul li a{
+ background: #ffffff;
+        padding: 15px;
+        color: #BADC58 !important;
+        border-radius: 5px;
+        text-decoration: none;
+}
+
+#menu-no-index ul li a:hover{
+        background: #BADC58;
+        color: #ffffff !important;
+}

@@ -1,0 +1,57 @@
+.read{
+        height: 768px;
+        background: #FAFAFC;
+        box-shadow: 10px 10px 37px -9px rgba(0,0,0,0.5);
+        -webkit-box-shadow: 10px 10px 37px -9px rgba(0,0,0,0.5);
+        -moz-box-shadow: 10px 10px 37px -9px rgba(0,0,0,0.5);
+}
+.read h2{
+        color:#1D164D;
+        font-size: 32px;
+        margin-top: 30px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+}
+.read p{
+        margin-top: 20px;
+        text-align: center;
+        color:#9E9BAF;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+}
+.bloco{
+        height: 450px;
+        width: 348px;
+        margin-top: 30px;
+        border-radius: 10px;
+}
+.topo{
+        height: 188px;
+        border-radius: 10px;
+}
+.bloco h1{
+        margin-top: 15px;
+        font-size: 21px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color:#1D164D;
+        
+}
+.comentario{
+        height:52px;
+        widht:52px;
+        margin-top: 25px;
+        
+}
+.bloco p{
+        color:#9E9BAF;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        float: right;
+        margin-right: 160px;
+        margin-top: 40px;
+
+}
+
+

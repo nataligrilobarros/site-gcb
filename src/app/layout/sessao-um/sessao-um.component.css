@@ -1,0 +1,45 @@
+.buscar{
+        height: 700px;        
+}
+
+.cx-busca{
+        height: 300px;
+        width: 500px;
+        background: none;
+        margin-top: 150px;
+        margin-left: -15px;
+}
+
+.cx-busca h2{
+        color: #1D164D;
+        font-size: 48px !important;       
+        font-family: 'Montserrat', sans-serif;
+         font-weight: bold;
+        text-align: left;
+}
+.input-busca{
+        border: 1px solid #2D3561;
+        height: 52px;
+        width: 343px;
+        background: #ffff;
+        border-radius: 8px;;
+}
+
+.input-busca::placeholder{
+        font-size: 16px;
+        color: #B4B4B4;
+        padding-left: 15px;;
+}
+.btn-buscar{
+        height: 52px;
+        width: 52px;
+        background: #BADC58;
+        background-image: url('./../../../assets/images/Icon.png');
+        display: block;
+        background-repeat: no-repeat;
+        background-attachment: center;
+        background-position: center;
+        float:right;
+        margin-right: 90px;
+        border-radius: 8px;
+}

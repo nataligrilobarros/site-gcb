@@ -1,0 +1,47 @@
+.sessao-tres{
+         background-image: url('../../../assets/images/Illustration@2x.png');
+         background-repeat: no-repeat;
+        background-position: left;
+        background-size: 718px;
+        height: 727px;
+        margin-top: 70px;
+
+}
+.texto{
+        margin-top: 125px;
+        margin-left: 500px;
+
+}
+.texto h2{
+        margin-top: 15px;
+        color:#2D3561;
+        text-align: left;
+        font-size: 32px !important;       
+        font-family: 'Montserrat', sans-serif;
+         font-weight: bold;
+         margin-right:200px;
+}
+.texto p{
+        color:#BCBCBC;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+}
+.texto a{
+        height: 52px;
+        width: 150px;
+        background: #BADC58;
+        border-radius: 5px;
+        display: block;
+        margin-left: 0px;
+        background-repeat: no-repeat;
+        background-attachment: left;
+        background-position: left;
+        float:left;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        text-align: center;
+        color: #ffff;
+        padding-top: 15px;
+        text-decoration: none;
+        font-weight: bold;
+}

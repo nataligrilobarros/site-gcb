@@ -1,0 +1,91 @@
+<div class="container">
+        <div class="row">
+                <div class="col-lg-12 col-sm-12">
+
+                        <h3>Cadastro de usuários</h3>
+
+                        <div class="alert alert-danger" role="alert" [hidden]="!mensagemAlerta" >
+                                {{mensagemAlerta}}
+                        </div>
+
+                        <div class="row">
+
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                                <label for="nome">Nome:</label>
+                                                <input type="text" class="input-register" id="nome"(focusout) = "nomeObrigatorio()" name="nome" [(ngModel)] = "nome" required>
+                                        </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                                <label for="dataNascimento">Data de nascimento:</label>
+                                                <input type="date" class="input-register" id="dataNascimento" name="dataNascimento"
+                                                        [(ngModel)]="dataNascimento" required>
+                                        </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                                <label for="cpf">CPF:</label>
+                                                <input type="number" class="input-register" id="cpf" name="cpf"
+                                                        [(ngModel)]="cpf" required>
+                                        </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                                <label for="cep">CEP:</label>
+                                                <input type="text" class="input-register" id="cep" name="cep" [(ngModel)]="cep" required (focusout)="searchAdress()" />
+                                        </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                                <label for="logradouro">logradouro:</label>
+                                                <input type="text" class="input-register" id="logradouro" name="logradouro" value="{{address.logradouro}}"
+                                                        [(ngModel)]="address.logradouro" required />
+                                        </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                                <label for="complemento">complemento:</label>
+                                                <input type="text" class="input-register" id="complemento" name="complemento"
+                                                        value="{{address.complemento}}" [(ngModel)]="address.complemento" required />
+                                        </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                                <label for="uf">UF:</label>
+                                                <input type="text" class="input-register" id="uf" name="uf"
+                                                        [(ngModel)]="address.uf" required />
+                                        </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                                <label for="localidade">Cidade:</label>
+                                                <input type="text" class="input-register" id="localidade" name="localidade" 
+                                                        [(ngModel)]="address.localidade" required />
+                                        </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                                <label for="ibge">IBGE:</label>
+                                                <input type="text" class="input-register" id="ibge" name="ibge"
+                                                         [(ngModel)]="address.ibge" required />
+                                        </div>
+                                </div>
+
+                                <a class="btn btn-success" href="#" (click)="cadastrar()" >Save</a>
+
+
+                                
+
+                        </div>
+
+
+                </div>
+        </div>
+</div>

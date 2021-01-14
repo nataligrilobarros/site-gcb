@@ -1,0 +1,48 @@
+<div class= "container-fliud topo"  [hidden]="!showIndex">
+    <div class = "container topo-centro">
+        <div class="row menu">
+        
+            <div class="col-lg-4 col-sm-8">
+                <a href="#" class="logo"> Healthy Food</a>
+            </div>
+            <div class="col-lg-8 col-sm-8 ">
+        
+                <ul>
+                    <li> <a href="#" routerLink="/gcb/index">HEALTHY RECIPES</a> </li>
+                    <li> <a href="#">BLOG</a> </li>
+                    <li> <a href="#">JOIN</a> </li>
+                    <li> <a href="#" class=botao-cadastrar routerLink="/gcb/register">Register</a> </li>
+                </ul>
+        
+            </div>
+        
+        </div>
+        <app-sessao-um></app-sessao-um>
+    </div>
+</div>
+
+<div class="container-fliud" [hidden]="showIndex">
+    <div class="container" id="menu-no-index">
+        <div class="row">
+        
+            <div class="col-lg-4 col-sm-4">
+                <a href="#" class="logo"> Healthy Food</a>
+            </div>
+            <div class="col-lg-8 col-sm-8">
+        
+                <ul>
+                    <li> <a href="#" routerLink="/gcb/index">HEALTHY RECIPES</a> </li>
+                    <li> <a href="#">BLOG</a> </li>
+                    <li> <a href="#">JOIN</a> </li>
+                    <li> <a href="#" class=botao-cadastrar routerLink="/gcb/register">Register</a> </li>
+                </ul>
+        
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+        <router-outlet></router-outlet>
+
+<app-rodape></app-rodape>
